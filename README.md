@@ -16,7 +16,7 @@ data Cmd = LDI Int | LDB Bool | LEQ | ADD | MULT | DUP
   deriving Show
 ```
 
-Again the types of the values on the Stack are Bool and Int. You should dynamically type check all operationsduringruntime. Instead of using Either as in homework 4 you can define
+Again the types of the values on the Stack are Bool and Int. You should dynamically type check all operations during runtime. Instead of using Either as in homework 4 you can define
 ```haskell
 data Val = I Int | B Bool
 data Stack = [Val]
